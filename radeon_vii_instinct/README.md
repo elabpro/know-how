@@ -29,7 +29,9 @@ https://www.techpowerup.com/gpu-specs/radeon-instinct-mi50.c3335
 ### Hardware
 - Основная видеокарта для первоначальной настройки операционной системы и BIOS
 - Переходник miniDP - HDMI
+
 ![miniDP](minidp.png)
+
 https://www.wildberries.ru/catalog/395602133/detail.aspx?targetUrl=SN
 
 ### BIOS
@@ -66,6 +68,6 @@ https://www.techpowerup.com/vgabios/229229/amd-radeonprovii-16384-200818
 - записать новый
 `amdvbflash -p 0 скачанный_vbios`
 
-Примечение: скорей всего не получится и сругается защита, чтобы ее отключить надо добавить параметр `-f`
+Примечание: скорей всего не получится и сругается защита, чтобы ее отключить надо добавить параметр `-f`
 
 7) Перезапустить компьютер и получить работающий miniDP
